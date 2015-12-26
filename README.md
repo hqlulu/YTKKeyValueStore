@@ -5,6 +5,10 @@ YTKKeyValueStore
 ![Pod version](http://img.shields.io/cocoapods/v/YTKKeyValueStore.svg?style=flat)
 ![Platform info](http://img.shields.io/cocoapods/p/YTKKeyValueStore.svg?style=flat)
 
+## pod使用此版本
+
+> pod 'YTKKeyValueStore', :git => 'https://github.com/hqlulu/YTKKeyValueStore', :branch => '0.1.3'
+
 ## 前言
 
 还记得大学刚学数据库那会儿，天真地以为世界上所有的存储都需要用数据库来做。后来毕业后，正值NOSQL流行，那时我在网易参与了网易微博的开发，我们当时使用了有道自己做的“BigTable”— OMAP来存储微博数据，那个时候才发现，其实Key-Value这种简单的存储也能搞定微博这类不太简单的存储逻辑。
