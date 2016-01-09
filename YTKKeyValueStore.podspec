@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "tangqiao" => "tangqiao@fenbi.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/hqlulu/YTKKeyValueStore.git", :tag => "0.1.2" }
+  s.source       = { :git => "https://github.com/hqlulu/YTKKeyValueStore.git", :tag => "0.1.3" }
   s.source_files = "YTKKeyValueStore/YTKKeyValueStore.{h,m}"
   s.requires_arc = true
   s.dependency   "FMDB", "~> 2.0"
